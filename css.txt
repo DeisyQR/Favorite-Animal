@@ -1,0 +1,58 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdfaf6;
+  color: #333;
+  line-height: 1.6;
+  padding: 0 1rem;
+}
+
+/* Header styling */
+header {
+  background-color: #ffeabf;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-bottom: 2px solid #f3d179;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #4d3b00;
+}
+
+/* Section styling */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+section h2 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+  color: #624a00;
+}
+
+section p {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+/* Footer styling */
+footer {
+  background-color: #ffeabf;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #5a4700;
+}
